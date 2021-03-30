@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      td,
+      th {
+        text-align: center;
+        border: 1px solid black;
+        padding: 3px;
+        border-collapse: collapse;
+      }
+      table colgroup col:nth-child(1) {
+        background-color: brown;
+      }
+      tbody tr:nth-child(1) {
+        background-color: aquamarine;
+      }
+      thead tr:nth-child(1) {
+        background-color: violet;
+        color: brown;
+      }
+      p:nth-child(1) span:nth-last-child(1) {
+        background-color: violet;
+      }
+    </style>
+    <title>Clase 2</title>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <td>Lunes</td>
+          <td>Martes</td>
+          <td>Miercoles</td>
+          <td>Jueves</td>
+          <td>Viernes</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+          <td>E</td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <p>
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit.
+        Nesciunt repellendus earum esse dicta iste officiis nobis nam ea iure,
+        voluptatibus adipisci repudiandae dolorem,
+        <span>exercitationem</span> unde consectetur? Tempora hic nesciunt
+        facere.
+      </p>
+      <p>
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit.
+        Nesciunt repellendus earum esse dicta iste officiis nobis nam ea iure,
+        voluptatibus adipisci repudiandae dolorem,
+        <span>exercitationem</span> unde consectetur? Tempora hic nesciunt
+        facere.
+      </p>
+    </div>
+
+    <form method="GET">
+      <label for="edad">Edad</label>
+      <input type="number" name="Edad" min="10" id="edad" />
+
+      <progress max="100" value="12"></progress>
+      <meter max="100" value="60" optimum="60"></meter>
+
+      <input type="list" list="numeros" />
+      <datalist id="numeros">
+        <option value="C#"></option>
+        <option value="Javascript"></option>
+        <option value="PHP"></option>
+        <option value="PHP2"></option>
+        <option value="PHP3"></option>
+      </datalist>
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
