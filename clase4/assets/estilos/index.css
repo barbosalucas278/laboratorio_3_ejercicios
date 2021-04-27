@@ -347,7 +347,7 @@ main .imgMain {
     font-weight: normal;
     font-size: 125%;
   }
-  .contact {
+  #contact {
     width: 100%;
     height: 445px;
     background-image: url("../images/encuentra.jpg");
@@ -367,7 +367,7 @@ main .imgMain {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .contact .containerContact {
+  #contact .containerContact {
     width: 80%;
     height: 50%;
     display: -webkit-box;
@@ -383,7 +383,7 @@ main .imgMain {
     margin-left: 50px;
     margin-top: 75px;
   }
-  .contact .containerContact p {
+  #contact .containerContact p {
     color: white;
     font-size: 20px;
   }
